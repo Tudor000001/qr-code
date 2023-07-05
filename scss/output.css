@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(213, 225, 239);
+  font-family: roboto;
+}
+
+main {
+  height: 550px;
+  width: 350px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#qr {
+  width: 300px;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#titleMain {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(36, 51, 74);
+}
+
+#textMain {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(140, 146, 162);
+  text-align: justify-all;
+}
+
+/*# sourceMappingURL=output.css.map */

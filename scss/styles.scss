@@ -1,0 +1,47 @@
+$main-color:rgba(213, 225, 239, 255);
+$secondary-color:rgba(255, 255, 255, 255);
+$main-font:roboto;
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    background-color:$main-color;
+    font-family:$main-font;
+}
+
+main {
+    height: 550px;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: $secondary-color;
+}
+
+#qr{
+    width:300px;
+    border-radius:20px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:25px;
+}
+
+#titleMain{
+    margin-left:25px;
+    margin-right:25px;
+    font-size:25px;
+    font-weight:700;
+    color:rgba(36, 51, 74, 255);
+}
+
+#textMain{
+    margin-left:25px;
+    margin-right:25px;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(140, 146, 162, 255);
+    text-align:justify-all;
+}
